@@ -1,0 +1,381 @@
+<root id="cards">
+
+	<card type = "Blackmage"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Whitemage"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Archer"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Dragoon"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Paladin"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Warrior"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+
+	<card type = "Knight"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+	
+<!--
+	<card type = "Morpher"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Summoner"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+ 
+	<card type = "Soldier"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	
+
+	<card type = "Fighter"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Thief"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Ninja"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Illusionist"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Bluemage"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Hunter"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Defender"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Gladiator"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Monk"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Bishop"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Templar"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Timemage"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Alchemist"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Beastmaster"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Sage"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Fencer"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Elementalist"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Redmage"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Assassin"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Sniper"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Animist"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Gunner"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Juggler"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+
+	<card type = "Gadgeteer"
+		health = "0"
+		strength = "1"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		cardTexture = "Data/Sprites/CardBorder.png"
+		jobTexture = "Data/Sprites/JobIcons.png">
+	</card>
+	-->
+</root>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="General\Gameplay">
+      <UniqueIdentifier>{c43b8816-9120-4aea-8e4e-1a5bc0e43a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Framework">
+      <UniqueIdentifier>{dcb6af98-8328-44b4-9510-7ad7fffbcdc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Input">
+      <UniqueIdentifier>{a97c4648-1292-458d-b4fd-0a9207061810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Ability">
+      <UniqueIdentifier>{739c843b-ba62-4fd8-82b9-01554943ab4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Units">
+      <UniqueIdentifier>{bf6fdaec-c3b6-43b9-9d00-a899a7887cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Cards">
+      <UniqueIdentifier>{36c01984-93c0-426b-9540-052c616376e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Lobby">
+      <UniqueIdentifier>{ef10e3b0-ab2b-41bd-98ca-8f151d9085c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\App.hpp">
+      <Filter>General\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\GameCommon.hpp">
+      <Filter>General\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Game.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\GameInput.hpp">
+      <Filter>General\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Map.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Ability\AbilityDefinition.hpp">
+      <Filter>General\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Interface.hpp">
+      <Filter>General\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Unit.hpp">
+      <Filter>General\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Units.hpp">
+      <Filter>General\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\UnitDefinition.hpp">
+      <Filter>General\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\UnitFilters.hpp">
+      <Filter>General\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Cards\Card.hpp">
+      <Filter>General\Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="Cards\CardDefinition.hpp">
+      <Filter>General\Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="Cards\Cards.hpp">
+      <Filter>General\Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="Cards\CardFilters.hpp">
+      <Filter>General\Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby\LobbyConsole.hpp">
+      <Filter>General\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Ability\Ability.hpp">
+      <Filter>General\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="Ability\Term.hpp">
+      <Filter>General\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Player.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\Players.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay\PlayerFilters.hpp">
+      <Filter>General\Gameplay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework\Main_Windows.cpp">
+      <Filter>General\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\App.cpp">
+      <Filter>General\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\Game.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\GameInput.cpp">
+      <Filter>General\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\Map.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Ability\AbilityDefinition.cpp">
+      <Filter>General\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Interface.cpp">
+      <Filter>General\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Unit.cpp">
+      <Filter>General\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Units.cpp">
+      <Filter>General\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\UnitDefinition.cpp">
+      <Filter>General\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\UnitFilters.cpp">
+      <Filter>General\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Cards\Card.cpp">
+      <Filter>General\Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="Cards\CardDefinition.cpp">
+      <Filter>General\Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="Cards\Cards.cpp">
+      <Filter>General\Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="Cards\CardFilters.cpp">
+      <Filter>General\Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby\LobbyConsole.cpp">
+      <Filter>General\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Ability\Ability.cpp">
+      <Filter>General\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="Ability\Term.cpp">
+      <Filter>General\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\Player.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\Players.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\PlayerFilters.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay\Text.cpp">
+      <Filter>General\Gameplay</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

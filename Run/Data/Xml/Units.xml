@@ -1,0 +1,255 @@
+<root id="units">
+
+	<!-- Warrior -->
+	<unit type = "Warrior"
+		  health = "25"
+		  mana = "1"
+		  strength = "2"
+		  intellect = "1"
+		  wisdom = "1"
+		  consitution = "2"
+		  speed = "1"
+		  portrait = "Data/Sprites/WarriorPortrait.png"
+		  texture = "Data/Sprites/Warrior.png">
+
+		<animset>
+			<animation name = "Idle" start = "0" end = "2" duration = "1.0" playback = "pingpong"/>
+			<animation name = "Dead" start = "6" end = "7" duration = "1.0" playback = "once"/>
+			<animation name = "Attack" start = "9" end = "11" duration = "1.0" playback = "once"/>
+			<animation name = "Hit" start = "8" end = "8" duration = "1.0" playback = "once"/>
+		</animset>
+
+		<abilities>
+			<main>
+				<main_ability ability_name = "WarriorAttack"/>
+			</main>
+
+			<reaction>
+				<reaction_ability ability_name = "block"/>
+			</reaction>
+
+			<passive>
+				<passive_ability ability_name = "armor"/>
+			</passive>
+		</abilities>
+
+	</unit>
+
+	<!-- Knight -->
+	<unit type = "Knight"
+		  health = "25"
+		  mana = "1"
+		  strength = "2"
+		  intellect = "1"
+		  wisdom = "1"
+		  consitution = "2"
+		  speed = "1"
+		  portrait = "Data/Sprites/KnightPortrait.png"
+		  texture = "Data/Sprites/Knight.png">
+
+		<animset>
+			<animation name = "Idle" start = "0" end = "2" duration = "1.0" playback = "pingpong"/>
+			<animation name = "Dead" start = "6" end = "7" duration = "1.0" playback = "once"/>
+			<animation name = "Attack" start = "9" end = "11" duration = "1.0" playback = "once"/>
+			<animation name = "Hit" start = "8" end = "8" duration = "1.0" playback = "once"/>
+		</animset>
+
+		<abilities>
+			<main>
+				<main_ability ability_name = "KnightAttack"/>
+			</main>
+
+			<reaction>
+				<reaction_ability ability_name = "block"/>
+			</reaction>
+
+			<passive>
+				<passive_ability ability_name = "armor"/>
+			</passive>
+		</abilities>
+
+	</unit>
+
+	<!-- Blackmage -->
+	<unit type = "Blackmage"
+		  health = "10"
+		  mana = "5"
+		  strength = "1"
+		  intellect = "3"
+		  wisdom = "2"
+		  consitution = "0"
+		  speed = "1"
+		  portrait = "Data/Sprites/BlackmagePortrait.png"
+		  texture = "Data/Sprites/Blackmage.png">
+
+		<animset>
+			<animation name = "Idle" start = "0" end = "2" duration = "1.0" playback = "pingpong"/>
+			<animation name = "Dead" start = "6" end = "7" duration = "1.0" playback = "once"/>
+			<animation name = "Attack" start = "9" end = "11" duration = "1.0" playback = "once"/>
+			<animation name = "Conjure" start = "3" end = "4" duration = "1.0" playback = "once"/>
+			<animation name = "Cast" start = "5" end = "5" duration = "1.0" playback = "once"/>
+			<animation name = "Hit" start = "8" end = "8" duration = "1.0" playback = "once"/>
+		</animset>
+
+		<abilities>
+			<main>
+				<main_ability ability_name = "Fire"/>
+			</main>
+
+			<reaction>
+				<reaction_ability ability_name = "block"/>
+			</reaction>
+
+			<passive>
+				<passive_ability ability_name = "armor"/>
+			</passive>
+		</abilities>
+
+	</unit>
+
+	<!-- Whitemage -->
+	<unit type = "Whitemage"
+		health = "25"
+		mana = "5"
+		strength = "5"
+		intellect = "2"
+		wisdom = "1"
+		consitution = "1"
+		speed = "1"
+		portrait = "Data/Sprites/WhitemagePortrait.png"
+		texture = "Data/Sprites/Whitemage.png">
+
+		<animset>
+			<animation name = "Idle" start = "0" end = "2" duration = "1.0" playback = "pingpong"/>
+			<animation name = "Dead" start = "6" end = "7" duration = "1.0" playback = "once"/>
+			<animation name = "Attack" start = "9" end = "11" duration = "1.0" playback = "once"/>
+			<animation name = "Conjure" start = "3" end = "4" duration = "1.0" playback = "once"/>
+			<animation name = "Cast" start = "5" end = "5" duration = "1.0" playback = "once"/>
+			<animation name = "Hit" start = "8" end = "8" duration = "1.0" playback = "once"/>
+		</animset>
+
+		<abilities>
+			<main>
+				<main_ability ability_name = "Cure"/>
+			</main>
+
+			<reaction>
+				<reaction_ability ability_name = "block"/>
+			</reaction>
+
+			<passive>
+				<passive_ability ability_name = "armor"/>
+			</passive>
+		</abilities>
+
+	</unit>
+
+	<!-- Archer -->
+	<unit type = "Archer"
+		health = "15"
+		mana = "1"
+		strength = "3"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "0"
+		speed = "1"
+		  portrait = "Data/Sprites/ArcherPortrait.png"
+		texture = "Data/Sprites/Archer.png">
+
+		<animset>
+			<animation name = "Idle" start = "0" end = "2" duration = "1.0" playback = "pingpong"/>
+			<animation name = "Dead" start = "6" end = "7" duration = "1.0" playback = "once"/>
+			<animation name = "Attack" start = "9" end = "11" duration = "1.0" playback = "once"/>
+			<animation name = "Hit" start = "8" end = "8" duration = "1.0" playback = "once"/>
+		</animset>
+
+		<abilities>
+			<main>
+				<main_ability ability_name = "ArcherAttack"/>
+			</main>
+
+			<reaction>
+				<reaction_ability ability_name = "block"/>
+			</reaction>
+
+			<passive>
+				<passive_ability ability_name = "armor"/>
+			</passive>
+		</abilities>
+
+	</unit>
+
+	<!-- Dragoon -->
+	<unit type = "Dragoon"
+		health = "50"
+		mana = "1"
+		strength = "2"
+		intellect = "1"
+		wisdom = "1"
+		consitution = "0"
+		speed = "1"
+		portrait = "Data/Sprites/DragoonPortrait.png"
+		texture = "Data/Sprites/Dragoon.png">
+
+		<animset>
+			<animation name = "Idle" start = "0" end = "2" duration = "1.0" playback = "pingpong"/>
+			<animation name = "Dead" start = "6" end = "7" duration = "1.0" playback = "once"/>
+			<animation name = "Attack" start = "9" end = "11" duration = "1.0" playback = "once"/>
+			<animation name = "Jump" start = "3" end = "5" duration = "1.0" playback = "once"/>
+			<animation name = "Fall" start = "11" end = "11" duration = "1.0" playback = "once"/>
+			<animation name = "Hit" start = "8" end = "8" duration = "1.0" playback = "once"/>
+		</animset>
+
+		<abilities>
+			<main>
+				<main_ability ability_name = "Jump"/>
+			</main>
+
+			<reaction>
+				<reaction_ability ability_name = "block"/>
+			</reaction>
+
+			<passive>
+				<passive_ability ability_name = "armor"/>
+			</passive>
+		</abilities>
+
+	</unit>
+
+	<!-- Paladin -->
+	<unit type = "Paladin"
+		  health = "20"
+		  mana = "1"
+		  strength = "2"
+		  intellect = "1"
+		  wisdom = "1"
+		  consitution = "2"
+		  speed = "1"
+		  portrait = "Data/Sprites/PaladinPortrait.png"
+		  texture = "Data/Sprites/Paladin.png">
+
+		<animset>
+			<animation name = "Idle" start = "0" end = "2" duration = "1.0" playback = "pingpong"/>
+			<animation name = "Dead" start = "6" end = "7" duration = "1.0" playback = "once"/>
+			<animation name = "Attack" start = "9" end = "11" duration = "1.0" playback = "once"/>
+			<animation name = "Conjure" start = "3" end = "4" duration = "1.0" playback = "once"/>
+			<animation name = "Cast" start = "5" end = "5" duration = "1.0" playback = "once"/>
+			<animation name = "Hit" start = "8" end = "8" duration = "1.0" playback = "once"/>
+		</animset>
+
+		<abilities>
+			<main>
+				<main_ability ability_name = "PaladinAttack"/>
+			</main>
+
+			<reaction>
+				<reaction_ability ability_name = "block"/>
+			</reaction>
+
+			<passive>
+				<passive_ability ability_name = "armor"/>
+			</passive>
+		</abilities>
+
+	</unit>	
+</root>

@@ -1,0 +1,1757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{a065eec3-ff81-4861-ab88-0a71600cba92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{37026966-5ac8-46b8-b134-1b3a9b30dbaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{3f2cae19-0833-4a75-9ccb-afbc81cf2fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{91c5ffef-e163-4c28-935c-691cd4bc7ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{3da4c647-0912-4f70-b31f-b7cf4df0c41b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\TinyXML2">
+      <UniqueIdentifier>{0161c244-4513-4676-a240-0b9781c6b89f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\fmod">
+      <UniqueIdentifier>{42d4100a-b3e8-45d5-a4f3-ec2dacfc04af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\RakNet">
+      <UniqueIdentifier>{30e55ed5-26de-4ab8-8ab7-629680415fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Async">
+      <UniqueIdentifier>{381280d8-4566-4d05-a19e-6e632456828a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests">
+      <UniqueIdentifier>{b6b46115-5179-4f2a-b2de-23b928603636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Callstack">
+      <UniqueIdentifier>{23102c7f-afef-4d80-b579-9027c6e29f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{1dc662f1-cfb4-452e-ab73-5f3be01c9822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{42ccbaad-f92a-4d87-85d5-0b622efe087a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Semaphore">
+      <UniqueIdentifier>{37033cec-7cb3-4348-b683-fc516255c8fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile">
+      <UniqueIdentifier>{da0d297d-a725-478c-8aed-8ae927b228eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Job">
+      <UniqueIdentifier>{e5dc1ecf-545a-4100-a2d5-a465050b1f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\stb">
+      <UniqueIdentifier>{310487b1-abc2-40b6-8a59-35f6f08f61ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting">
+      <UniqueIdentifier>{187dbf4b-41ab-44a5-b3f6-8d7c996606d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\Python">
+      <UniqueIdentifier>{7b4e179f-6192-414e-a6cb-8221c5247663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\python">
+      <UniqueIdentifier>{7a33e589-146e-4592-9fee-6b8f106ba8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{5293a5ee-7564-4e29-bdb4-42d1d2082c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffer">
+      <UniqueIdentifier>{0c4bd0b6-82ef-4716-a0be-0abbd28193ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Math\Vec2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderContext.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vec3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Camera.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ErrorWarningAssert.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\StringUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Vertex_PCU.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MathUtils.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\RandomNumberGenerator.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\KeyButton.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\XboxController.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\AnalogStick.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputSystem.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioSystem.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Image.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Texture.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\IntVec2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\AABB2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\VertexUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Time.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SpriteDefinition.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SpriteSheet.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\BitMapFont.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SpriteAnimationDefinition.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\TinyXML2\tinyxml2.cpp">
+      <Filter>ThirdParty\TinyXML2</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\FloatRange.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\IntRange.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Rgba.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XmlUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\NamedStrings.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\DevConsole.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix44.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\EventSystem.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\SmoothNoise.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\RawNoise.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vec4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Tags.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Ring.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Disc.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Line.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ColorTargetView.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Shader.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FileUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\UniformBuffer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\VertextBuffer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderBuffer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Sampler.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\TextureView.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\WindowContext.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\CPUMesh.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\AABB3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\GPUMesh.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\DepthStencilTargetView.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\IndexBuffer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\DebugRender.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\OBB2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Plane2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Segment2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Capsule2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\BufferLayout.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\VertexMaster.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\VertexLit.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Material.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\VertexPCUNTB.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Clock.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Model.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Prop.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Ray.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Plane3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\NamedProperties.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\Base64Encoder.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\BitStream.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\CCRakNetSlidingWindow.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\CCRakNetUDT.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\CheckSum.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\CloudClient.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\CloudCommon.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\CloudServer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\CommandParserInterface.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\ConnectionGraph2.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\ConsoleServer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\DataCompressor.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\DirectoryDeltaTransfer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\DR_SHA1.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\DS_BytePool.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\DS_ByteQueue.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\DS_HuffmanEncodingTree.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\DS_Table.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\DynDNS.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\EmailSender.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\EpochTimeToString.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\FileList.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\FileListTransfer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\FileOperations.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\FormatString.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\FullyConnectedMesh2.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\Getche.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\Gets.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\GetTime.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\gettimeofday.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\GridSectorizer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\HTTPConnection.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\HTTPConnection2.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\IncrementalReadInterface.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\Itoa.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\LinuxStrings.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\LocklessTypes.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\LogCommandParser.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\MessageFilter.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\NatPunchthroughClient.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\NatPunchthroughServer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\NatTypeDetectionClient.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\NatTypeDetectionCommon.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\NatTypeDetectionServer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\NetworkIDManager.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\NetworkIDObject.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\PacketConsoleLogger.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\PacketFileLogger.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\PacketizedTCP.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\PacketLogger.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\PacketOutputWindowLogger.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\PluginInterface2.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\PS4Includes.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\Rackspace.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakMemoryOverride.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetCommandParser.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetSocket.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetSocket2.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetSocket2_360_720.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetSocket2_Berkley.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetSocket2_Berkley_NativeClient.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetSocket2_NativeClient.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetSocket2_PS3_PS4.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetSocket2_PS4.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetSocket2_Vita.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetSocket2_Windows_Linux.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetSocket2_Windows_Linux_360.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetSocket2_WindowsStore8.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetStatistics.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetTransport2.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetTypes.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakPeer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakSleep.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakString.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakThread.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakWString.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\Rand.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RandSync.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\ReadyEvent.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RelayPlugin.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\ReliabilityLayer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\ReplicaManager3.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\Router2.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RPC4Plugin.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\SecureHandshake.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\SendToThread.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\SignaledEvent.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\SimpleMutex.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\SocketLayer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\StatisticsHistory.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\StringCompressor.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\StringTable.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\SuperFastHash.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\TableSerializer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\TCPInterface.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\TeamBalancer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\TeamManager.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\TelnetTransport.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\ThreadsafePacketLogger.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\TwoWayAuthentication.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\UDPForwarder.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\UDPProxyClient.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\UDPProxyCoordinator.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\UDPProxyServer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\VariableDeltaSerializer.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\VariableListDeltaTracker.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\VariadicSQLParser.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\VitaIncludes.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\WSAStartupSingleton.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\_FindFirst.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\RakNet\RakNetInterface.cpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests\UnitTests.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Callstack\Callstack.cpp">
+      <Filter>Callstack</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Memory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Semaphore\Semaphore.cpp">
+      <Filter>Semaphore</Filter>
+    </ClCompile>
+    <ClCompile Include="Async\AsyncRingBuffer.cpp">
+      <Filter>Async</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Allocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\BlockAllocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\Profile.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Job\Jobs.cpp">
+      <Filter>Job</Filter>
+    </ClCompile>
+    <ClCompile Include="Job\SaveImageJob.cpp">
+      <Filter>Job</Filter>
+    </ClCompile>
+    <ClCompile Include="Job\MakeImageFromTextureJob.cpp">
+      <Filter>Job</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting\Python\Python.cpp">
+      <Filter>Scripting\Python</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIWidget.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer\BufferUtilities.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Math\Vec2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vec3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderContext.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Rgba.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Vertex_PCU.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Camera.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ErrorWarningAssert.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\StringUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\EngineCommon.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathUtils.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\RandomNumberGenerator.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\AnalogStick.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\KeyButton.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\XboxController.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputSystem.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioSystem.hpp">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Image.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Texture.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntVec2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\VertexUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Time.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SpriteDefinition.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SpriteSheet.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\BitMapFont.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SpriteAnimationDefinition.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\TinyXML2\tinyxml2.hpp">
+      <Filter>ThirdParty\TinyXML2</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\FloatRange.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntRange.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\XmlUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\NamedStrings.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\DevConsole.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix44.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\SmoothNoise.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\RawNoise.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vec4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\EventSystem.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tags.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Ring.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Disc.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Line.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ColorTargetView.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Shader.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FileUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\UniformBuffer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\VertextBuffer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderBuffer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Sampler.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\TextureView.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RendererTypes.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\WindowContext.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\CPUMesh.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\GPUMesh.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\DepthStencilTargetView.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\IndexBuffer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\DebugRender.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\OBB2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Plane2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Segment2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Capsule2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\BufferLayout.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\VertexMaster.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\VertexLit.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Material.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\VertexPCUNTB.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Clock.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Model.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Prop.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Ray.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Plane3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\NamedProperties.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod.hpp">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_codec.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_common.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_dsp.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_dsp_effects.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_errors.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_output.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\Base64Encoder.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\BitStream.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\CCRakNetSlidingWindow.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\CCRakNetUDT.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\CheckSum.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\CloudClient.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\CloudCommon.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\CloudServer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\CommandParserInterface.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\ConnectionGraph2.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\ConsoleServer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DataCompressor.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DirectoryDeltaTransfer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DR_SHA1.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_BinarySearchTree.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_BPlusTree.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_BytePool.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_ByteQueue.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_Hash.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_Heap.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_HuffmanEncodingTree.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_HuffmanEncodingTreeFactory.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_HuffmanEncodingTreeNode.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_LinkedList.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_List.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_Map.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_MemoryPool.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_Multilist.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_OrderedChannelHeap.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_OrderedList.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_Queue.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_QueueLinkedList.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_RangeList.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_Table.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_ThreadsafeAllocatingQueue.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_Tree.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DS_WeightedGraph.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\DynDNS.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\EmailSender.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\EmptyHeader.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\EpochTimeToString.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\Export.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\FileList.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\FileListNodeContext.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\FileListTransfer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\FileListTransferCBInterface.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\FileOperations.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\FormatString.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\FullyConnectedMesh2.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\Getche.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\Gets.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\GetTime.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\gettimeofday.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\GridSectorizer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\HTTPConnection.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\HTTPConnection2.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\IncrementalReadInterface.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\InternalPacket.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\Itoa.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\Kbhit.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\LinuxStrings.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\LocklessTypes.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\LogCommandParser.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\MessageFilter.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\MessageIdentifiers.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\MTUSize.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\NativeFeatureIncludes.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\NativeFeatureIncludesOverrides.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\NativeTypes.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\NatPunchthroughClient.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\NatPunchthroughServer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\NatTypeDetectionClient.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\NatTypeDetectionCommon.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\NatTypeDetectionServer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\NetworkIDManager.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\NetworkIDObject.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\PacketConsoleLogger.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\PacketFileLogger.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\PacketizedTCP.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\PacketLogger.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\PacketOutputWindowLogger.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\PacketPool.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\PacketPriority.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\PluginInterface2.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\PS3Includes.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\PS4Includes.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\Rackspace.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakAlloca.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakAssert.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakMemoryOverride.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakNetCommandParser.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakNetDefines.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakNetDefinesOverrides.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakNetSmartPtr.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakNetSocket.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakNetSocket2.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakNetStatistics.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakNetTime.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakNetTransport2.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakNetTypes.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakNetVersion.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakPeer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakPeerInterface.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakSleep.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakString.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakThread.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakWString.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\Rand.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RandSync.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\ReadyEvent.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RefCountedObj.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RelayPlugin.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\ReliabilityLayer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\ReplicaEnums.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\ReplicaManager3.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\Router2.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RPC4Plugin.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\SecureHandshake.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\SendToThread.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\SignaledEvent.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\SimpleMutex.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\SimpleTCPServer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\SingleProducerConsumer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\SocketDefines.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\SocketIncludes.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\SocketLayer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\StatisticsHistory.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\StringCompressor.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\StringTable.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\SuperFastHash.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\TableSerializer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\TCPInterface.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\TeamBalancer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\TeamManager.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\TelnetTransport.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\ThreadPool.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\ThreadsafePacketLogger.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\TransportInterface.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\TwoWayAuthentication.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\UDPForwarder.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\UDPProxyClient.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\UDPProxyCommon.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\UDPProxyCoordinator.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\UDPProxyServer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\VariableDeltaSerializer.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\VariableListDeltaTracker.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\VariadicSQLParser.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\VitaIncludes.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\WindowsIncludes.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\WSAStartupSingleton.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\XBox360Includes.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\_FindFirst.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\AutopatcherPatchContext.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\AutopatcherRepositoryInterface.h">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\RakNet\RakNetInterface.hpp">
+      <Filter>ThirdParty\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="Async\AsyncQueue.hpp">
+      <Filter>Async</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CRC32.cpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CRC32.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTests\UnitTests.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Callstack\Callstack.hpp">
+      <Filter>Callstack</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Memory.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Async\AsyncRingBuffer.hpp">
+      <Filter>Async</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\Log.hpp">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Semaphore\Semaphore.hpp">
+      <Filter>Semaphore</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Allocator.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\STLUntrackedAllocator.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\BlockAllocator.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\Profile.hpp">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Job\Jobs.hpp">
+      <Filter>Job</Filter>
+    </ClInclude>
+    <ClInclude Include="Job\SaveImageJob.hpp">
+      <Filter>Job</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\stb\stb_image.h">
+      <Filter>ThirdParty\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\stb\stb_write.h">
+      <Filter>ThirdParty\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Job\MakeImageFromTextureJob.hpp">
+      <Filter>Job</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\Python.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\Python-ast.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pythonrun.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pythread.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pytime.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\rangeobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\setobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\sliceobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\structmember.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\structseq.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\symtable.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\sysmodule.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\token.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\traceback.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\tupleobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\typeslots.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\ucnhash.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\unicodeobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\warnings.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\weakrefobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\abstract.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\accu.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\asdl.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\ast.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\bitset.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\bltinmodule.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\boolobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\bytearrayobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\bytes_methods.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\bytesobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\cellobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\ceval.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\classobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\code.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\codecs.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\compile.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\complexobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\context.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\datetime.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\descrobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\dictobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\dtoa.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\dynamic_annotations.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\enumobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\errcode.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\eval.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\fileobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\fileutils.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\floatobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\frameobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\funcobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\genobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\graminit.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\grammar.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\import.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\intrcheck.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\iterobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\listobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\longintrepr.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\longobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\marshal.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\memoryobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\metagrammar.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\methodobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\modsupport.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\moduleobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\namespaceobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\node.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\object.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\objimpl.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\odictobject.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\opcode.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\osdefs.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\osmodule.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\parsetok.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\patchlevel.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pgen.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pgenheaders.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\py_curses.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyarena.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyatomic.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pycapsule.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyconfig.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyctype.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pydebug.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pydtrace.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyerrors.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyexpat.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyfpe.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyhash.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pylifecycle.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pymacconfig.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pymacro.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pymath.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pymem.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pyport.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pystate.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pystrcmp.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pystrhex.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\python\pystrtod.h">
+      <Filter>ThirdParty\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\Python\Python.hpp">
+      <Filter>Scripting\Python</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIWidget.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer\BufferUtilities.hpp">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\ThirdParty\RakNet\CMakeLists.txt">
+      <Filter>ThirdParty\RakNet</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ThirdParty\RakNet\RakNet.vcproj">
+      <Filter>ThirdParty\RakNet</Filter>
+    </None>
+    <None Include="..\ThirdParty\RakNet\RakNet_vc8.vcproj">
+      <Filter>ThirdParty\RakNet</Filter>
+    </None>
+    <None Include="..\ThirdParty\RakNet\RakNet_vc9.vcproj">
+      <Filter>ThirdParty\RakNet</Filter>
+    </None>
+  </ItemGroup>
+</Project>
